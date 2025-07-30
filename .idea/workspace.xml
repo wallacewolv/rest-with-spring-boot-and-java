@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96d72ea1-baf6-4ed3-9d9d-ca7cfd5e0805" name="Changes" comment="feat: (S1-A37) - Tratando Exceções com @ControllerAdvice, @ResponseStatus e @ExceptionHandler">
+    <list default="true" id="1138ab2e-cc3c-4c72-9a77-718a9ad58d75" name="Changes" comment="feat: (S1-A40) - [SOLUÇÃO] Implementando as Demais Operações Matemáticas">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/services/MathService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/utils/NumberConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/controllers/MathController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/controllers/MathController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +18,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Record" />
-        <option value="Exception" />
         <option value="Class" />
       </list>
     </option>
@@ -27,41 +25,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;wallacewolv&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/wallacewolv/rest-with-spring-boot-and-java.git&quot;,
-    &quot;accountId&quot;: &quot;406aeba2-47e7-41cc-83bd-97ed9b490735&quot;
-  }
-}</component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
-}</component>
-  <component name="ProjectId" id="30Ivu08NzE5XFvVaKAIpzxsG4FV" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Startup.executor": "Run",
-    "Maven.rest-with-spring-boot-and-java [clean].executor": "Run",
-    "Maven.rest-with-spring-boot-and-java [org.apache.maven.plugins:maven-clean-plugin:3.4.0:clean].executor": "Run",
-    "Maven.rest-with-spring-boot-and-java [org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Walla/Documents/code/udemy/spring-boot-2025-rest-apis-aws-e-gcp-com-java-e-docker/rest-with-spring-boot-and-java"
+    "git-widget-placeholder": "main"
   }
 }]]></component>
   <component name="RunManager">
@@ -85,73 +52,6 @@
     </recent_temporary>
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="96d72ea1-baf6-4ed3-9d9d-ca7cfd5e0805" name="Changes" comment="" />
-      <created>1753328120057</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1753328120057</updated>
-    </task>
-    <task id="LOCAL-00001" summary="feat: Aula 30 - Criando o Primeiro Endpoint REST">
-      <option name="closed" value="true" />
-      <created>1753840010192</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1753840010192</updated>
-    </task>
-    <task id="LOCAL-00002" summary="feat: Aula 34 - Entendendo as Annotations @RestController, @RequestMapping e @PathVariable">
-      <option name="closed" value="true" />
-      <created>1753841343725</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1753841343725</updated>
-    </task>
-    <task id="LOCAL-00003" summary="feat: (S1-A35) - Definindo a Lógica da nossa API RESTful">
-      <option name="closed" value="true" />
-      <created>1753841757136</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1753841757136</updated>
-    </task>
-    <task id="LOCAL-00004" summary="feat: (S1-A36) - Definindo os Métodos de Validação e Executando a Aplicação">
-      <option name="closed" value="true" />
-      <created>1753842338881</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1753842338881</updated>
-    </task>
-    <task id="LOCAL-00005" summary="feat: (S1-A37) - Tratando Exceções com @ControllerAdvice, @ResponseStatus e @ExceptionHandler">
-      <option name="closed" value="true" />
-      <created>1753844703264</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1753844703264</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: Aula 30 - Criando o Primeiro Endpoint REST" />
-    <MESSAGE value="feat: Aula 34 - Entendendo as Annotations @RestController, @RequestMapping e @PathVariable" />
-    <MESSAGE value="feat: (S1-A35) - Definindo a Lógica da nossa API RESTful" />
-    <MESSAGE value="feat: (S1-A36) - Definindo os Métodos de Validação e Executando a Aplicação" />
-    <MESSAGE value="feat: (S1-A37) - Tratando Exceções com @ControllerAdvice, @ResponseStatus e @ExceptionHandler" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: (S1-A37) - Tratando Exceções com @ControllerAdvice, @ResponseStatus e @ExceptionHandler" />
   </component>
 </project>
