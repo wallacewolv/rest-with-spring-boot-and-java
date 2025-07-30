@@ -69,8 +69,8 @@ public class MathController {
         return (num1 + num2) / 2;
     }
 
-    //http://localhost:8080/math/square-root/81 - raiz quadrada
-    @RequestMapping("square-root/{number}")
+    //http://localhost:8080/math/squareRoot/81 - raiz quadrada
+    @RequestMapping("squareRoot/{number}")
     public Double squareRoot(@PathVariable("number") String number) throws Exception {
         if (!isNumeric(number)) throw new UnsupportedMathOperationException("Please set a numeric value!");
 
