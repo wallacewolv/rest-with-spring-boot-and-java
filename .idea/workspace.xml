@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1138ab2e-cc3c-4c72-9a77-718a9ad58d75" name="Changes" comment="feat: (S1-A40) - [SOLUÇÃO] Implementando as Demais Operações Matemáticas">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/services/MathService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/utils/NumberConverter.java" afterDir="false" />
+    <list default="true" id="1138ab2e-cc3c-4c72-9a77-718a9ad58d75" name="Changes" comment="feat: (S1-A40) - [DESAFIO] Refatore o Código da Aplicação Separando os Conceitos">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/controllers/PersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/services/PersonServices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/controllers/MathController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/controllers/MathController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/controllers/GreetingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/controllers/MathController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/model/Greeting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/services/MathService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/utils/NumberConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/wallacewolv/controllers/GreetingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/wallacewolv/controllers/MathController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/wallacewolv/model/Greeting.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +32,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
@@ -52,6 +63,19 @@
     </recent_temporary>
   </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="feat: (S1-A40) - [DESAFIO] Refatore o Código da Aplicação Separando os Conceitos">
+      <option name="closed" value="true" />
+      <created>1753847997614</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1753847997614</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: (S1-A40) - [DESAFIO] Refatore o Código da Aplicação Separando os Conceitos" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: (S1-A40) - [DESAFIO] Refatore o Código da Aplicação Separando os Conceitos" />
   </component>
 </project>
