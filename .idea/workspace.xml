@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96d72ea1-baf6-4ed3-9d9d-ca7cfd5e0805" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/controllers/GreetingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/model/Greeting.java" afterDir="false" />
+    <list default="true" id="96d72ea1-baf6-4ed3-9d9d-ca7cfd5e0805" name="Changes" comment="feat: Aula 30 - Criando o Primeiro Endpoint REST">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/controllers/MathController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +36,9 @@
     &quot;accountId&quot;: &quot;406aeba2-47e7-41cc-83bd-97ed9b490735&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -44,19 +47,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Startup.executor": "Run",
-    "Maven.rest-with-spring-boot-and-java [org.apache.maven.plugins:maven-clean-plugin:3.4.0:clean].executor": "Run",
-    "Maven.rest-with-spring-boot-and-java [org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Walla/Documents/code/udemy/spring-boot-2025-rest-apis-aws-e-gcp-com-java-e-docker/rest-with-spring-boot-and-java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Startup.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.rest-with-spring-boot-and-java [org.apache.maven.plugins:maven-clean-plugin:3.4.0:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.rest-with-spring-boot-and-java [org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Walla/Documents/code/udemy/spring-boot-2025-rest-apis-aws-e-gcp-com-java-e-docker/rest-with-spring-boot-and-java&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Startup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.wallacewolv.Startup" />
@@ -85,6 +88,30 @@
       <option name="presentableId" value="Default" />
       <updated>1753328120057</updated>
     </task>
+    <task id="LOCAL-00001" summary="feat: Aula 30 - Criando o Primeiro Endpoint REST">
+      <option name="closed" value="true" />
+      <created>1753840010192</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1753840010192</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: Aula 30 - Criando o Primeiro Endpoint REST" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Aula 30 - Criando o Primeiro Endpoint REST" />
   </component>
 </project>
