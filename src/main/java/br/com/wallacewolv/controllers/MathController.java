@@ -15,12 +15,18 @@ public class MathController {
         return convertToDouble(numberOne) + convertToDouble(numberTwo);
     }
 
-    private Double convertToDouble(String numberOne) {
-        return 1D;
+    private Double convertToDouble(String strNumber) throws IllegalArgumentException {
+        if (strNumber == null || strNumber.isEmpty()) throw new IllegalArgumentException();
+
+        String number = strNumber.replace(",", "."); // R$ 5,00 UDS 5.0
+        return Double.parseDouble(number);
     }
 
-    private boolean isNumeric(String value) {
-        return true;
+    private boolean isNumeric(String strNumber) {
+        if (strNumber == null || strNumber.isEmpty()) return false;
+
+        String number = strNumber.replace(",", "."); // R$ 5,00 UDS 5.0
+        return number.matches("[-+]?[0-9]*\\.?[0-9]+");
     }
 
     //http://localhost:8080/math/subtraction/3/5
