@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96d72ea1-baf6-4ed3-9d9d-ca7cfd5e0805" name="Changes" comment="feat: (S1-A35) - Definindo a Lógica da nossa API RESTful">
+    <list default="true" id="96d72ea1-baf6-4ed3-9d9d-ca7cfd5e0805" name="Changes" comment="feat: (S1-A36) - Definindo os Métodos de Validação e Executando a Aplicação">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/exception/ExceptionResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/exception/UnsupportedMathOperationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/exception/handler/CustomizedEntityResponseHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/controllers/MathController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/controllers/MathController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/wallacewolv/controllers/MathController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/wallacewolv/controllers/MathController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Record" />
+        <option value="Exception" />
         <option value="Class" />
       </list>
     </option>
@@ -38,7 +41,7 @@
   }
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -113,7 +116,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753841757136</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: (S1-A36) - Definindo os Métodos de Validação e Executando a Aplicação">
+      <option name="closed" value="true" />
+      <created>1753842338881</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1753842338881</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,6 +142,7 @@
     <MESSAGE value="feat: Aula 30 - Criando o Primeiro Endpoint REST" />
     <MESSAGE value="feat: Aula 34 - Entendendo as Annotations @RestController, @RequestMapping e @PathVariable" />
     <MESSAGE value="feat: (S1-A35) - Definindo a Lógica da nossa API RESTful" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: (S1-A35) - Definindo a Lógica da nossa API RESTful" />
+    <MESSAGE value="feat: (S1-A36) - Definindo os Métodos de Validação e Executando a Aplicação" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: (S1-A36) - Definindo os Métodos de Validação e Executando a Aplicação" />
   </component>
 </project>
