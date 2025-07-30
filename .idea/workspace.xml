@@ -7,7 +7,8 @@
     <list default="true" id="96d72ea1-baf6-4ed3-9d9d-ca7cfd5e0805" name="Changes" comment="feat: (S1-A37) - Tratando Exceções com @ControllerAdvice, @ResponseStatus e @ExceptionHandler">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/controllers/MathController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/controllers/MathController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/wallacewolv/controllers/MathController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/wallacewolv/controllers/MathController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,19 +50,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Startup.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.rest-with-spring-boot-and-java [org.apache.maven.plugins:maven-clean-plugin:3.4.0:clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.rest-with-spring-boot-and-java [org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Walla/Documents/code/udemy/spring-boot-2025-rest-apis-aws-e-gcp-com-java-e-docker/rest-with-spring-boot-and-java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Startup.executor": "Run",
+    "Maven.rest-with-spring-boot-and-java [clean].executor": "Run",
+    "Maven.rest-with-spring-boot-and-java [org.apache.maven.plugins:maven-clean-plugin:3.4.0:clean].executor": "Run",
+    "Maven.rest-with-spring-boot-and-java [org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Walla/Documents/code/udemy/spring-boot-2025-rest-apis-aws-e-gcp-com-java-e-docker/rest-with-spring-boot-and-java"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Startup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.wallacewolv.Startup" />
