@@ -10,12 +10,17 @@ public class MathController {
 
     //http://localhost:8080/math/sum/3/5
     @RequestMapping("sum/{numberOne}/{numberTwo}")
-    public Double sum(
-            @PathVariable("numberOne") String numberOne,
-            @PathVariable("numberTwo") String numberTwo
+    public Double sum(@PathVariable("numberOne") String numberOne, @PathVariable("numberTwo") String numberTwo) throws Exception {
+        if (!isNumeric(numberOne) || !isNumeric(numberTwo)) throw new IllegalArgumentException();
+        return convertToDouble(numberOne) + convertToDouble(numberTwo);
+    }
 
-    ) {
-        return 1.0;
+    private Double convertToDouble(String numberOne) {
+        return 1D;
+    }
+
+    private boolean isNumeric(String value) {
+        return true;
     }
 
     //http://localhost:8080/math/subtraction/3/5
