@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1138ab2e-cc3c-4c72-9a77-718a9ad58d75" name="Changes" comment="feat: (S1-A46) - Injeção de Dependências com @Service e @Autowired">
+    <list default="true" id="1138ab2e-cc3c-4c72-9a77-718a9ad58d75" name="Changes" comment="feat: (S6-A48) - O Postman e os Verbos HTTP POST, PUT e DELETE">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/controllers/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/controllers/PersonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/services/PersonServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/services/PersonServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/wallacewolv/controllers/PersonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/wallacewolv/controllers/PersonController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/wallacewolv/services/PersonServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/wallacewolv/services/PersonServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +52,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Startup.executor": "Run",
+    "Maven.rest-with-spring-boot-and-java [org.apache.maven.plugins:maven-clean-plugin:3.4.0:clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main"
@@ -102,12 +102,21 @@
       <option name="presentableId" value="Default" />
       <updated>1753931524805</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: (S6-A48) - O Postman e os Verbos HTTP POST, PUT e DELETE">
+      <option name="closed" value="true" />
+      <created>1753933253690</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1753933253690</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: (S1-A40) - [DESAFIO] Refatore o Código da Aplicação Separando os Conceitos" />
     <MESSAGE value="feat: (S1-A46) - Injeção de Dependências com @Service e @Autowired" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: (S1-A46) - Injeção de Dependências com @Service e @Autowired" />
+    <MESSAGE value="feat: (S6-A48) - O Postman e os Verbos HTTP POST, PUT e DELETE" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: (S6-A48) - O Postman e os Verbos HTTP POST, PUT e DELETE" />
   </component>
 </project>
