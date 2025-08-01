@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1138ab2e-cc3c-4c72-9a77-718a9ad58d75" name="Changes" comment="feat: (S6-A48) - O Postman e os Verbos HTTP POST, PUT e DELETE">
+    <list default="true" id="1138ab2e-cc3c-4c72-9a77-718a9ad58d75" name="Changes" comment="feat: (S7-A51) - Criando a Base de Dados e Definindo as Propriedades de Conexão">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/repository/PersonRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/model/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/wallacewolv/model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/wallacewolv/model/Person.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,28 +22,29 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "wallacewolv"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;wallacewolv&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/wallacewolv/rest-with-spring-boot-and-java.git",
-    "accountId": "406aeba2-47e7-41cc-83bd-97ed9b490735"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/wallacewolv/rest-with-spring-boot-and-java.git&quot;,
+    &quot;accountId&quot;: &quot;406aeba2-47e7-41cc-83bd-97ed9b490735&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 7
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="30cew5UpQ0RJXCOlm54S9Pio5Jm" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -49,16 +53,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Startup.executor": "Run",
-    "Maven.rest-with-spring-boot-and-java [org.apache.maven.plugins:maven-clean-plugin:3.4.0:clean].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Startup.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.rest-with-spring-boot-and-java [clean:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.rest-with-spring-boot-and-java [org.apache.maven.plugins:maven-clean-plugin:3.4.0:clean].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.Startup">
     <configuration name="Startup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.wallacewolv.Startup" />
       <module name="rest-with-spring-boot-and-java" />
@@ -72,9 +77,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="rest-with-spring-boot-and-java [clean:clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean:clean" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Startup" />
+        <item itemvalue="Maven.rest-with-spring-boot-and-java [clean:clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -110,13 +146,22 @@
       <option name="project" value="LOCAL" />
       <updated>1753933253690</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: (S7-A51) - Criando a Base de Dados e Definindo as Propriedades de Conexão">
+      <option name="closed" value="true" />
+      <created>1753936103148</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1753936103148</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: (S1-A40) - [DESAFIO] Refatore o Código da Aplicação Separando os Conceitos" />
     <MESSAGE value="feat: (S1-A46) - Injeção de Dependências com @Service e @Autowired" />
     <MESSAGE value="feat: (S6-A48) - O Postman e os Verbos HTTP POST, PUT e DELETE" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: (S6-A48) - O Postman e os Verbos HTTP POST, PUT e DELETE" />
+    <MESSAGE value="feat: (S7-A51) - Criando a Base de Dados e Definindo as Propriedades de Conexão" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: (S7-A51) - Criando a Base de Dados e Definindo as Propriedades de Conexão" />
   </component>
 </project>
