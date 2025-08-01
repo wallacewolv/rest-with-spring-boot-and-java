@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1138ab2e-cc3c-4c72-9a77-718a9ad58d75" name="Changes" comment="feat: (S7-A51) - Criando a Base de Dados e Definindo as Propriedades de Conexão">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/repository/PersonRepository.java" afterDir="false" />
+    <list default="true" id="1138ab2e-cc3c-4c72-9a77-718a9ad58d75" name="Changes" comment="feat: (S7-A52) - Implementando a Entidade Person e o Repositório">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/model/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/wallacewolv/model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/wallacewolv/model/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/controllers/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/controllers/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/exception/UnsupportedMathOperationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/exception/handler/CustomizedEntityResponseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/exception/handler/CustomizedEntityResponseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/services/PersonServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/services/PersonServices.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,14 +152,42 @@
       <option name="project" value="LOCAL" />
       <updated>1753936103148</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: (S7-A51) - Criando a Base de Dados e Definindo as Propriedades de Conexão">
+      <option name="closed" value="true" />
+      <created>1754017235460</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1754017235460</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: (S7-A52) - Implementando a Entidade Person e o Repositório">
+      <option name="closed" value="true" />
+      <created>1754017282695</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1754017282696</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: (S1-A40) - [DESAFIO] Refatore o Código da Aplicação Separando os Conceitos" />
     <MESSAGE value="feat: (S1-A46) - Injeção de Dependências com @Service e @Autowired" />
     <MESSAGE value="feat: (S6-A48) - O Postman e os Verbos HTTP POST, PUT e DELETE" />
     <MESSAGE value="feat: (S7-A51) - Criando a Base de Dados e Definindo as Propriedades de Conexão" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: (S7-A51) - Criando a Base de Dados e Definindo as Propriedades de Conexão" />
+    <MESSAGE value="feat: (S7-A52) - Implementando a Entidade Person e o Repositório" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: (S7-A52) - Implementando a Entidade Person e o Repositório" />
   </component>
 </project>
