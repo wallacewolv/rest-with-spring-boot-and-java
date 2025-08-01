@@ -1,0 +1,8 @@
+br\com\wallacewolv\services\PersonServices.class
+br\com\wallacewolv\controllers\PersonController.class
+br\com\wallacewolv\repository\PersonRepository.class
+br\com\wallacewolv\exception\ExceptionResponse.class
+br\com\wallacewolv\exception\ResourceNotFoundException.class
+br\com\wallacewolv\model\Person.class
+br\com\wallacewolv\Startup.class
+br\com\wallacewolv\exception\handler\CustomizedEntityResponseHandler.class

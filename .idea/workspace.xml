@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1138ab2e-cc3c-4c72-9a77-718a9ad58d75" name="Changes" comment="feat: (S7-A52) - Implementando a Entidade Person e o Repositório">
+    <list default="true" id="1138ab2e-cc3c-4c72-9a77-718a9ad58d75" name="Changes" comment="feat: (S7-A53) - Substituindo os Mocks do Service pelo Acesso ao Repositório">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/controllers/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/controllers/PersonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/exception/UnsupportedMathOperationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/exception/handler/CustomizedEntityResponseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/exception/handler/CustomizedEntityResponseHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/services/PersonServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/wallacewolv/services/PersonServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/wallacewolv/controllers/PersonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/wallacewolv/controllers/PersonController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/wallacewolv/exception/UnsupportedMathOperationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/wallacewolv/exception/handler/CustomizedEntityResponseHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/wallacewolv/exception/handler/CustomizedEntityResponseHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/wallacewolv/services/PersonServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/wallacewolv/services/PersonServices.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754017282696</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: (S7-A53) - Substituindo os Mocks do Service pelo Acesso ao Repositório">
+      <option name="closed" value="true" />
+      <created>1754018649662</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1754018649662</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,6 +198,7 @@
     <MESSAGE value="feat: (S6-A48) - O Postman e os Verbos HTTP POST, PUT e DELETE" />
     <MESSAGE value="feat: (S7-A51) - Criando a Base de Dados e Definindo as Propriedades de Conexão" />
     <MESSAGE value="feat: (S7-A52) - Implementando a Entidade Person e o Repositório" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: (S7-A52) - Implementando a Entidade Person e o Repositório" />
+    <MESSAGE value="feat: (S7-A53) - Substituindo os Mocks do Service pelo Acesso ao Repositório" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: (S7-A53) - Substituindo os Mocks do Service pelo Acesso ao Repositório" />
   </component>
 </project>
